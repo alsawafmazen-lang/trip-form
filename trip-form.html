@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="trip-form.CSS">
+    <title>prepare your next trip with me</title>
+</head>
+<body>
+    <form>
+        <h1>prepare your next trip with me</h1>
+        <p>please take a moment to get in touch I will get back to you shortly</p>
+        <div class="column">
+            <div>
+                <label for="name">full name</label>
+                <input type="text" id="name" required>
+            </div>
+            <div>
+                <label for="e-mail">e-mail address</label>
+                <input type="email" id="email" required value="mazen@example.com">
+            </div>
+             <div>
+                <label for="phone">phone number</label>
+                <input type="tel" id="phone" >
+            </div>
+             <div>
+                <label for="gender">gender</label>
+                <div>
+                    <input type="radio" id="male" value="male">
+                    <label class="inline-label" for="male">male</label>
+                </div>
+                <div>
+                    <input type="radio" id="female" value="female">
+                    <label class="inline-label" for="female">female</label>
+                </div>
+            </div>
+            <div>
+                <input type="date" id="date">
+                    <label for="date">arriving date</label>
+            </div>
+              <div>
+                <input type="date" id="date">
+                    <label for="date">departure date</label>
+            </div>
+            <div>
+                <input id="file" type="file">
+                    <label for="file">profile picture</label>
+            </div>
+             <div>
+                <input id="file" type="file">
+                    <label for="file">passport</label>
+            </div>
+              <div>
+                <input id="file" type="file">
+                    <label for="file">visa</label>
+            </div>
+            <div>
+                <label for="cities">where would you like to travel?</label>
+                <select name="cities" id="cities">
+                    <option value="">choose one</option>
+                    <option value="alaksur">alaksur</option>
+                    <option value="Cairo">Cairo</option>
+                    <option value="Alexandria">Alexandria</option>
+                    <option value="Aswan">Aswan</option>
+                    <option value="sharm elsheikh">sharm elsheikh</option>
+                    <option value="hurdaga">hurdaga</option>
+                </select>
+            </div>
+        </div>
+        <div class="column">
+           <div>
+             <label for="the message">leave a message</label>
+             <textarea name="message" id="the message"></textarea>
+           </div>
+        </div>
+    </form>
+</body>
+</html>
